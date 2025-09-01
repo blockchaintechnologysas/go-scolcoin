@@ -1,4 +1,6 @@
-## Go Ethereum
+## SCOLCOIN (Fork of Go Ethereum)
+
+This repository is a fork of the original [go-ethereum](https://github.com/ethereum/go-ethereum) project. We have converted it into **SCOLCOIN**, using the ticker **SCOL**, and will implement improvements to make Proof-of-Authority (POA) networks function better.
 
 Golang execution layer implementation of the Ethereum protocol.
 
