@@ -159,7 +159,7 @@ var (
 		},
 	}
 	// AllEthashProtocolChanges contains every protocol change (EIPs) introduced
-	// and accepted by the Ethereum core developers into the Ethash consensus.
+	// and accepted by the SCOLCOIN core developers into the Ethash consensus.
 	AllEthashProtocolChanges = &ChainConfig{
 		ChainID:                 big.NewInt(1337),
 		HomesteadBlock:          big.NewInt(0),
@@ -214,7 +214,7 @@ var (
 	}
 
 	// AllCliqueProtocolChanges contains every protocol change (EIPs) introduced
-	// and accepted by the Ethereum core developers into the Clique consensus.
+	// and accepted by the SCOLCOIN core developers into the Clique consensus.
 	AllCliqueProtocolChanges = &ChainConfig{
 		ChainID:                 big.NewInt(1337),
 		HomesteadBlock:          big.NewInt(0),
@@ -244,7 +244,7 @@ var (
 	}
 
 	// TestChainConfig contains every protocol change (EIPs) introduced
-	// and accepted by the Ethereum core developers for testing purposes.
+	// and accepted by the SCOLCOIN core developers for testing purposes.
 	TestChainConfig = &ChainConfig{
 		ChainID:                 big.NewInt(1),
 		HomesteadBlock:          big.NewInt(0),
@@ -274,7 +274,7 @@ var (
 	}
 
 	// MergedTestChainConfig contains every protocol change (EIPs) introduced
-	// and accepted by the Ethereum core developers for testing purposes.
+	// and accepted by the SCOLCOIN core developers for testing purposes.
 	MergedTestChainConfig = &ChainConfig{
 		ChainID:                 big.NewInt(1),
 		HomesteadBlock:          big.NewInt(0),
@@ -359,7 +359,7 @@ var (
 		Max:            9,
 		UpdateFraction: 5007716,
 	}
-	// DefaultBlobSchedule is the latest configured blob schedule for Ethereum mainnet.
+	// DefaultBlobSchedule is the latest configured blob schedule for SCOLCOIN mainnet.
 	DefaultBlobSchedule = &BlobScheduleConfig{
 		Cancun: DefaultCancunBlobConfig,
 		Prague: DefaultPragueBlobConfig,
